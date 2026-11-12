@@ -414,7 +414,7 @@ def _setup(c, y):
     """The premise, in the author's words. Returns the y below it."""
     y = c.para(L, y, "Mistral Large 4 played 59 nuclear-crisis games against Claude, GPT, Grok and Kimi. "
                "Each time, a tense standoff in which:", 9.8, wrap=100, color=MUTED)
-    for line in ("each country has an interest in using the nuclear bomb;",
+    for line in ("whatever the enemy does, it is individually preferable to use the nuclear bomb;",
                  "cooperating is better than mutual destruction."):
         c.text(L + 0.05, y + 0.07, "–", fontsize=10.5, color=MUTED)
         y = c.para(L + 0.25, y + 0.07, line, 10.5)
